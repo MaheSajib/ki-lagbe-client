@@ -14,6 +14,8 @@ After all of this signIn method user can access a Orders page and also visit the
 
 2. Here also have an admin Button which is different there an admin add products, manage products. manage product page have full product list if user click delete button the product will be deleted.
 
+3. Here also adding a Spinner on home page. when data loading from the server.
+
 # Implementation.
 1. used private route for authentication.
 2. used bootstrap for design ui.
