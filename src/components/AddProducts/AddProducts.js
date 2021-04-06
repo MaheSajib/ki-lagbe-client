@@ -9,7 +9,7 @@ const AddProducts = () => {
 
 
 
-    const onSubmit = data => {
+    const onSubmit = (data, e) => {
         const productData = {
             name: data.name,
             weight: data.weight,
@@ -27,7 +27,9 @@ const AddProducts = () => {
             },
             body: JSON.stringify(productData)
         })
-            .then(res => console.log('server site response', res))
+        .then(res => console.log('server site response', res))
+
+        e.target.reset();
     };
     const handleImageUpload = event => {
         console.log(event.target.files[0])
