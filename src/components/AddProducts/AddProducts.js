@@ -66,18 +66,13 @@ const AddProducts = () => {
                             <h6>Add Price</h6>
                             <input name="price" className="form-control" placeholder="Enter price" ref={register} />
                         </div>
-
-                    </div>
-                    <div className="row">
                         <div className="col">
                             <h6>Add Photo</h6>
                             <input name="addPhoto" type="file" className="form-control btn btn-outline-success border-0" onChange={handleImageUpload} ref={register} />
                         </div>
                     </div>
-                    <div className="row">
-                        <div className="col">
-                            <button className="btn btn-success" type="submit">Save</button>
-                        </div>
+                    <div className="col d-flex justify-content-end">
+                        <button className="btn btn-success" type="submit">Save</button>
                     </div>
                 </form>
             </div>
