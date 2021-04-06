@@ -66,10 +66,6 @@ const AddProducts = () => {
                             <h6>Add Price</h6>
                             <input name="price" className="form-control" placeholder="Enter price" ref={register} />
                         </div>
-                        <div className="col">
-                            <h6>Quantity</h6>
-                            <input name="quantity" className="form-control" placeholder="Enter Quantity" ref={register} />
-                        </div>
 
                     </div>
                     <div className="row">
